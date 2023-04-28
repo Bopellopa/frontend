@@ -3,8 +3,8 @@ import './App.css';
 import Picture from './HomePage';
 import styles from './HomePage.module.css';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import MovieList from './Movies';
-import Podcast from './Pod';
+import MovieList from '../movies/Movies';
+import Podcast from '../Pod';
 
 class HomeBody extends React.Component {
   render() {
